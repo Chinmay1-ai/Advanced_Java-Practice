@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Day1_Spring&apos; to &apos;XmlBased&apos;" description="Rename resource &apos;Day1_Spring&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Day1_Spring" name="XmlBased" stamp="1773275291250" updateReferences="true"/>&#x0A;<refactoring comment="Copy Project &apos;XmlBased&apos;" description="Copy Project &apos;XmlBased&apos;" destination="D:/Workspace/Springworkspace" element="/XmlBased" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="AnnotationBased" stamp="1773275313333"/>
+</session>
