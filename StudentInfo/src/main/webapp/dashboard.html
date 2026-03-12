@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-body">
+
+	<!-- HEADER -->
+	<header class="main-header">
+		<div class="logo">Student Management System</div>
+
+		<nav class="nav-links">
+			<a href="dashboard.html">Dashboard</a> <a href="register.html">Register</a>
+			<a href="view.html">View</a> <a href="update.html">Update</a> <a
+				href="delete.html">Delete</a> <a href="logout" class="logout-btn">Logout</a>
+		</nav>
+	</header>
+
+
+	<!-- MAIN SECTION -->
+	<main class="dashboard-main">
+
+		<div class="welcome-section">
+			<h1>Welcome Back</h1>
+			<p class="user-name">
+				Logged in as: <span class="highlight-name" id="username"></span>
+			</p>
+		</div>
+
+		<div class="dashboard-grid">
+
+			<a href="register.html" class="dash-card register-card">
+				<h3>Register Student</h3>
+				<p>Add new student records</p>
+			</a> <a href="update.html" class="dash-card update-card">
+				<h3>Update Student</h3>
+				<p>Modify existing records</p>
+			</a> <a href="view.html" class="dash-card view-card">
+				<h3>View Students</h3>
+				<p>Check student details</p>
+			</a> <a href="delete.html" class="dash-card delete-card">
+				<h3>Delete Student</h3>
+				<p>Remove student records</p>
+			</a>
+
+		</div>
+
+	</main>
+
+
+	<!-- FOOTER -->
+	<footer class="main-footer"> © 2026 Student Management System
+		| Developed by Chinmay </footer>
+
+
+	<!-- NAME FROM URL -->
+	<script>
+		const params = new URLSearchParams(window.location.search);
+		const name = params.get("name");
+		document.getElementById("username").innerText = name ? name : "Admin";
+	</script>
+
+</body>
+</html>
