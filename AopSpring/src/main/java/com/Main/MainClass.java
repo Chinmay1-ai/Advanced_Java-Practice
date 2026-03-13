@@ -13,7 +13,5 @@ public class MainClass {
 		ApplicationContext context = new AnnotationConfigApplicationContext(ConfigClass.class);
 		BankApp e = context.getBean( BankApp.class);
 		e.transferMoney();
-
-		
 	}
 }
