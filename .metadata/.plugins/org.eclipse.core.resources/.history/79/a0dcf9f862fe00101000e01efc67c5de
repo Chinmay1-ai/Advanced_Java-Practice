@@ -1,0 +1,9 @@
+package com.task;
+
+public class Task_2 {
+
+	public static void main(String[] args) {
+		
+		String name[] = {"Chinmay@123"};
+	}
+}

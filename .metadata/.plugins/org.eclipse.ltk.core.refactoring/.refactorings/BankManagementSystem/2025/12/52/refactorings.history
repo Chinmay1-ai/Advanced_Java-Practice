@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.bank&apos; to &apos;Loops_Prac/src/com.exercise&apos;&#x0D;&#x0A;- Original project: &apos;BankManagementSystem&apos;&#x0D;&#x0A;- Destination element: &apos;Loops_Prac/src/com.exercise&apos;&#x0D;&#x0A;- Original element: &apos;BankManagementSystem/src/com.bank&apos;" description="Copy package" destination="=Loops_Prac/src&lt;com.exercise" element1="/src&lt;com.bank" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1766832220952" version="1.0"/>
+</session>

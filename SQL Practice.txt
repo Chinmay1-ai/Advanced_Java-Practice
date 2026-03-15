@@ -1,0 +1,50 @@
+1099793As@
+
+show databases;
+
+create database company_db;
+
+use company_db;
+
+create table customer (cust_id int primary key auto_Increment, name varchar(50) not null, email varchar(100) unique, age int not null,city VARCHAR(50), gender varchar(10),salary bigint(10,2),join_date DATE);
+
+insert into customer (name, email, city, age)
+values('Chinmay', 'chinmay@gmail.com', 22, 'Pune', 'Male', 30000, '2024-01-10'),('Bhavik', 'bhavik@gmail.com', 23, 'Pune', 'Male', 28000, '2024-02-15'),('Ayush', 'ayush@gmail.com', 20, 'Amravati', 'Male', 45000, '2023-12-01'),('Shravan', 'shravan@gmail.com', 19, 'Dhule', 'Male', 40000, '2024-03-20'),('Pratik', 'pratik@gmail.com', 31, 'Nagpur', 'Male', 55000, '2022-11-05');
+
+select * from customer;
+
+select * from customer where age = 22;
+
+select * from customer where age > 23;
+
+select * from customer where age between 20 AND 25;
+
+select * from customer where  age in (22, 20, 31);
+
+select * from customer order by age ASC;
+
+select name as Customer_Name, age as Customer_Age from customer;
+
+SELECT avg(age) as Average_Age from customer;
+
+select max(age) as Max_Age, min(age) as Min_Age from customer;
+
+update customer set age = 26 where name = 'Ayush';
+
+delete from customer where age > 25;
+
+alter table customer add experience int;
+
+alter table customer modify age int not null;
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+package com.task;
+
+public class Task_1 {
+
+	public static void main(String[] args) {
+		
+		String password[] = {"Chinmay@123"};
+		
+		String name = "";
+		String specialChar = "";
+		String number = 
+		
+	}
+}

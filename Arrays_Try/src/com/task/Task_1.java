@@ -1,0 +1,30 @@
+package com.task;
+
+public class Task_1 {
+
+	public static void main(String[] args) {
+
+		String pass = "Chinmay@123";
+
+		String name = "";
+		String specialChar = "";
+		String number = "";
+
+		for (int i = 0; i < pass.length(); i++) {
+
+			char c = pass.charAt(i);
+
+			if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z') {
+				name += c;
+			} else if (c >= '0' && c <= '9') {
+				number += c;
+			} else {
+				specialChar += c;
+			}
+		}
+		System.out.println("Name in the Password is " + name);
+		System.out.println("Special Character in the Password is " + specialChar);
+		System.out.println("Number in the Password is " + number);
+
+	}
+}

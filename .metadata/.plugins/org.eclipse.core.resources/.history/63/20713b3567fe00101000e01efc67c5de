@@ -1,0 +1,27 @@
+package com.task;
+
+public class Task_3 {
+
+	public static void main(String[] args) {
+
+		String pass = "Chinmay@123";
+
+		StringBuilder sb = new StringBuilder(pass);
+
+//		char[] arr = pass.toCharArray();
+//
+//		if (Character.isDigit('a')) {
+//
+//		}
+		
+		String name = "";
+		String number = "";
+		String specialChar = "";
+
+		for(int i = 0 ; i < pass.length() ; i++) {
+			char c = pass.charAt(i);
+			
+			if(sb.indexOf(i) >= 'A' && )
+		}
+	}
+}

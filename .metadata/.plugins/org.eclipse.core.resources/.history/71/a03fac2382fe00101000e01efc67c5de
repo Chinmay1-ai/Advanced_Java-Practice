@@ -1,0 +1,27 @@
+package com.task;
+
+public class Task_3 {
+
+	public static void main(String[] args) {
+
+		String pass = "ChinmayPawar";
+
+		StringBuilder consonent = new StringBuilder(pass);
+		StringBuilder vowels = new StringBuilder(pass);
+
+		for (int i = 0; i < pass.length(); i++) {
+
+			char c = 
+			if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ||
+	                c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+
+	                vowels++;
+	            } 
+	            else if (Character.isLetter(c)) {
+	                consonent++;
+	            }
+	        }
+		System.out.println("Consonent are = " + consonent);
+		System.out.println("Vowels are = " + vowels);
+	}
+}

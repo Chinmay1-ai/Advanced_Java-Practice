@@ -1,0 +1,27 @@
+package com.task;
+
+public class Task_3 {
+
+	public static void main(String[] args) {
+
+		String pass = "ChinmayPawar";
+
+		StringBuilder name = new StringBuilder(pass);
+		
+
+		for (int i = 0; i < pass.length(); i++) {
+
+			char c = pass.charAt(i);
+			if (Character.isLetter(c)) {
+				name.append(c);
+			} else if (Character.isDigit(c)) {
+				number.append(c);
+			} else {
+				specialChar.append(c);
+			}
+		}
+		System.out.println("Name = " + name);
+		System.out.println("Number = " + number);
+		System.out.println("Special Character = " + specialChar);
+	}
+}

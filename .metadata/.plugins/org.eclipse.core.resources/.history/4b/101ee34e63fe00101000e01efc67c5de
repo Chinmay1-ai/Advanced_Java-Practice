@@ -1,0 +1,18 @@
+package com.task;
+
+public class Task_2 {
+
+	public static void main(String[] args) {
+
+		String pass= "Chinmay@123";
+
+		String name = "";
+		String specialChar = "";
+		String number = "";
+		
+		for(int i = 0 ; i < pass.length ; i++) {
+			
+		}
+
+	}
+}

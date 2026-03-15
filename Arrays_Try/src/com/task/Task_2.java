@@ -1,0 +1,30 @@
+package com.task;
+
+public class Task_2 {
+
+	public static void main(String[] args) {
+
+		String pass= "Chinmay@123";
+		
+		
+		char c[] = pass.toCharArray();
+		
+		String name = "";
+		String specialChar = "";
+		String number = "";
+		
+		for(int i = 0 ; i < c.length ; i++) {
+			if(c[i] >= 'A' && c[i] <= 'Z' || c[i] >= 'a' && c[i] <= 'z') {
+				name += c[i];
+			}else if(c[i] >= '0' && c[i] <= '9') {
+				number += c[i];
+			}else {
+				specialChar += c[i];
+			}
+		}
+
+		System.out.println("Name "+name);
+		System.out.println("Number "+number);
+		System.out.println("Char "+specialChar);
+	}
+}
