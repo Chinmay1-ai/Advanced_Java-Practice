@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
@@ -17,6 +18,13 @@
 		<item key="DIALOG_Y_ORIGIN" value="7"/>
 		<item key="DIALOG_WIDTH" value="1536"/>
 		<item key="DIALOG_HEIGHT" value="816"/>
+=======
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="459"/>
+		<item key="DIALOG_Y_ORIGIN" value="45"/>
+		<item key="DIALOG_WIDTH" value="633"/>
+		<item key="DIALOG_HEIGHT" value="556"/>
+>>>>>>> 5a64d3021e9d5ee5d68f99bef1d2037f3b405afd
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

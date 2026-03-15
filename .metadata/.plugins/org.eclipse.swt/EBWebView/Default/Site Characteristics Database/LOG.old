@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2026/03/10-12:10:35.239 8a0 Reusing MANIFEST D:\Workspace\JavaWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
 2026/03/10-12:10:35.241 8a0 Recovering log #3
 2026/03/10-12:10:35.241 8a0 Reusing old log D:\Workspace\JavaWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log 
+=======
+2026/03/13-13:16:56.917 1dfc Reusing MANIFEST D:\Workspace\Springworkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2026/03/13-13:16:56.919 1dfc Recovering log #3
+2026/03/13-13:16:56.919 1dfc Reusing old log D:\Workspace\Springworkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log 
+>>>>>>> 5a64d3021e9d5ee5d68f99bef1d2037f3b405afd

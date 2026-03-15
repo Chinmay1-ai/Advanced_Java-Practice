@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2026/03/13-20:16:44.754 1624 Reusing MANIFEST D:\Workspace\JavaWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
 2026/03/13-20:16:44.754 1624 Recovering log #3
 2026/03/13-20:16:44.755 1624 Reusing old log D:\Workspace\JavaWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/000003.log 
+=======
+2026/03/13-13:36:28.603 4468 Reusing MANIFEST D:\Workspace\Springworkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/03/13-13:36:28.604 4468 Recovering log #3
+2026/03/13-13:36:28.604 4468 Reusing old log D:\Workspace\Springworkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/000003.log 
+>>>>>>> 5a64d3021e9d5ee5d68f99bef1d2037f3b405afd

@@ -1,0 +1,10 @@
+package com.config;
+
+import org.springframework.context.annotation.ComponentScan;
+
+import com.tka.Employee;
+
+@ComponentScan(com.tka)
+public class ConfigClass {
+
+}
