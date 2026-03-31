@@ -13,6 +13,7 @@ public class PatientDAO {
 	}
 
 	public void insertPatient(PatientPojo p) throws Exception {
+		
 		Connection c = getConnection();
 
 		PreparedStatement ps = c.prepareStatement(
@@ -34,7 +35,9 @@ public class PatientDAO {
 	}
 
 	public void fetchPatients() throws Exception {
+		
 		Connection c = getConnection();
+		
 		PreparedStatement ps = c.prepareStatement("SELECT * FROM patient");
 		ResultSet rs = ps.executeQuery();
 

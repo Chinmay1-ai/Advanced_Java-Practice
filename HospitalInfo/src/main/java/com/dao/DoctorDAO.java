@@ -39,6 +39,7 @@ public class DoctorDAO {
 	}
 
 	public void fetchAllDoctors() throws Exception {
+		
 		Connection c = getConnection();
 
 		PreparedStatement ps = c.prepareStatement("select * from doctor");
